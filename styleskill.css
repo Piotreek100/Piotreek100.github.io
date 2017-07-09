@@ -1,0 +1,213 @@
+@charset "UTF-8";
+body
+ {
+    margin: 0;
+	background-image: url('backgr.jpg');
+	background-repeat: no-repeat
+}
+.nav
+{
+width: 100%;
+height: 100px;
+ background-color: rgba(158,158,158,0.4);
+}
+.footer
+{
+float:left;
+height: 70px;
+width: 90%;
+ background-color: rgba(90,85,85,0.01);
+}
+.footer2
+{
+font-family: 'Anton', sans-serif;
+color: white;
+font-size: 45px;
+animation-play-state: running;
+animation-iteration-count: infinite;
+animation-duration: 2s;
+}
+.szarość
+{
+float:left;
+width: 188px;
+height: 70px;
+ background-color: rgba(158,158,158,0.4);
+ border-right: solid 1px gray;
+}
+.logo
+{
+color: black;
+font-size: 30px;
+margin-left: 20px;
+margin-top: 13px;
+float:left;
+text-align: center;
+animation-play-state: running;
+animation-iteration-count: infinite;
+font-family: 'Anton', sans-serif;
+ background-color: rgba(90,85,85,0.01);
+ font-style: italic;
+}
+.homepage
+{
+width: 150px;
+height: 55px;
+font-family: 'Anton', sans-serif;
+color: white;
+font-size: 40px;
+margin-left: 80px;
+margin-top: 20px;
+float:left;
+border-bottom-style: outset;
+border-bottom-color: red;
+animation-play-state: paused; 
+text-align:center;
+opacity: 0.8
+}
+.homepage:hover
+ {
+ cursor: pointer;
+ color: white;
+ animation-play-state: running;
+ animation-iteration-count: infinite;
+ border-bottom-color: #3299CC;
+ opacity: 1.0
+ }
+.button1
+{
+width: 250px;
+height: 55px;
+color: #B5B5B5;
+font-family: 'Anton', sans-serif;
+font-size: 40px;
+margin-left: 50px;
+margin-top: 20px;
+float:left;
+border-bottom-style: outset;
+border-bottom-color: red;
+animation-play-state: paused; 
+text-align:center;
+opacity: 0.8
+}
+.button1:hover
+ {
+ cursor: pointer;
+ animation-play-state: running;
+ animation-iteration-count: infinite;
+  border-bottom-color: #3299CC;
+   color: white;
+   opacity: 1.0
+ }
+.button2
+{
+width: 250px;
+height: 55px;
+color: #B5B5B5;
+font-family: 'Anton', sans-serif;
+font-size: 40px;
+margin-left: 50px;
+margin-top: 20px;
+float:left;
+border-bottom-style: outset;
+border-bottom-color: red;
+animation-play-state: paused; 
+text-align:center;
+opacity: 0.8
+}
+.button2:hover
+ {
+ cursor: pointer;
+ animation-play-state: running;
+  color: white;
+ animation-iteration-count: infinite;
+  border-bottom-color: #3299CC;
+   opacity: 1.0
+ }
+.games
+{
+height: 800px;
+width: 10%;
+float: left;
+ background-color: rgba(158,158,158,0.4);
+border-right: solid 1px gray;
+border-top: solid 1px gray;
+font-style: italic;
+}
+.presentation
+{
+height: 800px;
+width: 90%;
+float: left;
+	background-image: url('sfbg.jpg');
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+border-top: solid 1px gray;
+border-bottom: solid 1px gray;
+}
+.game
+{
+text-align: center;
+font-family: 'Anton', sans-serif;
+font-size: 20px;
+color: black;
+opacity: 0.7;
+}
+.game:hover
+{
+opacity: 1.0;
+color: white;
+}
+.game2
+{
+text-align: center;
+font-family: 'Anton', sans-serif;
+font-size: 20px;
+color: black;
+opacity: 0.7;
+}
+.game2:hover
+{
+opacity: 1.0;
+color: white;
+}
+.logo
+{
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.btn-default
+{
+position:absolute;
+right: 1%;
+top: 85%;
+}
+.btn-success
+{
+position:absolute;
+right: 9%;
+top: 85%;
+}
+#myCarousel
+{
+opacity: 0.3;
+margin-top: 15%;
+margin-left: 2%;
+height: 50%;
+width: 50%;
+transition: opacity 2s ease-in-out;
+}
+#myCarousel:hover
+{
+opacity: 1.0;
+}
+.carousel-indicators 
+{
+position: relative;
+top: 10%;
+}
+
