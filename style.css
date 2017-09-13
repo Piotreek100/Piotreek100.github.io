@@ -1,0 +1,293 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+}
+a
+{
+text-decoration: none !important;
+}
+a:visited
+{
+text-decoration: none !important;
+color: white; !important;
+}
+a:hover
+{
+color: white !important;
+cursor: pointer;
+}
+.nav
+{
+width: 100%;
+min-height: 70px;
+line-height: 70px;
+background: rgba(0,0,0,0.001);
+float:left;
+font-family: 'Oswald', sans-serif;
+height: 70px;
+line-height: 70px;
+}
+.menu {
+    margin: 0 30px 0 0;
+    margin-left: 50%;
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #DEDEDE;
+    margin: 0 10px;
+    line-height: 70px;
+}
+span {
+    color: #54D17A;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+.spacing
+{
+margin-left: 12%;
+float: left;
+}
+ .parallax
+    { 
+    background-image: url("space1.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.parallax3
+    { 
+    background-image: url("space1.jpg");
+    height: 2100px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.parallax4
+    { 
+    background-image: url("space2.jpg");
+    height: 1000px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+.title
+{
+color: white;
+font-size: 65px;
+font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+	  padding-top: 10cm;
+  text-align: center;
+  letter-spacing: 10px;
+}
+ .small
+{
+color: white;
+font-size: 35px;
+font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+	margin-top: 1%;
+  text-align: center;
+    letter-spacing: 7px;
+}
+.sunimg
+{
+    background-image: url("sun2.png");
+    height: 650px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	opacity: 0.9;
+    width: 40%;
+    float: left;
+}
+.sundesc
+{
+height: 650px;
+width: 60%;
+float: left;
+font-size: 25px;
+color:white;
+font-weight: bold;
+font-family: 'Oswald', sans-serif;
+}
+.des1
+{
+  text-align: center;
+}
+.suntitle
+{
+color: white;
+font-size: 65px;
+font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.gomer
+{
+margin-top: 70%;
+position: absolute;
+color: white;
+font-size: 95px;
+font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.mercuryimg
+{
+    background-image: url("mercury.png");
+    height: 650px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	opacity: 0.75;
+    width: 40%;
+    float: left;
+}
+	
+	
+	
+  
+ /*
+ .homepage:hover
+ {
+ cursor: pointer;
+ animation-play-state: running;
+ animation-iteration-count: infinite;
+ border-bottom-color: black;
+ }
+ */
+ 
+ 
+ 
+.button-three {
+    position: relative;
+    background-color: #f39c12;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+	font-size: 18px;
+font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+	margin-left: 40%;
+	
+}
+
+.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+   cursor:pointer;
+}
+
+.button-three:after {
+    content: "";
+    background: #f1c40f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* MOBILE L */
+ @media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+		color: white;
+    }
+    .menu {
+        text-align: center;
+		height: 70px;
+        width: 100%;
+        display: none;
+		margin-left: 0%;
+		font-size: 15px;
+		background-color: rgba(255,255,255,0.8);
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+		color:black;
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+	.spacing
+	{
+	margin-left: 10%;
+	}
+	.title
+{
+font-size: 25px;
+  letter-spacing: 5px;
+}
+ .small
+{
+font-size: 15px;
+    letter-spacing: 4px;
+}
+
+	
+	
+	
+	
+}
+
+
+
+
+
+
+ /* LAPTOP */
+ @media only screen and (min-width : 1024px)
+ {
+    .menu 
+	{
+	    margin-left: 40%;
+}
